@@ -1,0 +1,32 @@
+[versions]
+agp = "8.5.1"
+shizuku-api = "13.1.5"
+kotlin = "2.0.0"
+activityCompose = "1.9.1"
+composeBom = "2024.08.00"
+m3color = "2024.5"
+wearComposeFoundation = "1.4.0-rc01"
+kotlinxCoroutines = "1.9.0-RC.2"
+kotlinxSerialization = "1.6.3"
+
+[libraries]
+m3color = { module = "com.github.Kyant0:m3color", version.ref = "m3color" }
+androidx-wear-compose-foundation = { module = "androidx.wear.compose:compose-foundation", version.ref = "wearComposeFoundation" }
+androidx-compose-animation = { group = "androidx.compose.animation", name = "animation" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version = "1.7.0-rc01" }
+androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+shizuku-api = { module = "dev.rikka.shizuku:api", version.ref = "shizuku-api" }
+shizuku-provider = { module = "dev.rikka.shizuku:provider", version.ref = "shizuku-api" }
+kotlinx-serialization-protobuf = { module = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf", version.ref = "kotlinxSerialization" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "agp" }
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+
