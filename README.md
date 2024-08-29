@@ -1,6 +1,10 @@
 # Task Manager
 一个简单的 Android 应用，为一些没有后台管理页功能的设备提供清理后台的能力，如`WearOS 2`
 
+下载：https://bke.lanzoub.com/b02lstn5je
+
+密码：30433
+
 ![shot](https://img.picui.cn/free/2024/08/29/66d08fbdc75f8.png)![shot](https://img.picui.cn/free/2024/08/29/66d08fbd99f04.png)![shot](https://img.picui.cn/free/2024/08/29/66d08fbdc8d08.png)
 
 ### 使用
