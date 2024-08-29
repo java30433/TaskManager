@@ -13,7 +13,7 @@ android {
     applicationVariants.configureEach {
         outputs.configureEach {
             (this as com.android.build.gradle.internal.api.BaseVariantOutputImpl).outputFileName =
-                "${project.name}-${defaultConfig.versionName}.apk";
+                "TaskManager-${defaultConfig.versionName}.apk"
         }
     }
     signingConfigs {
